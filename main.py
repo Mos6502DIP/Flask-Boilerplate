@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['GET'])
-def privacy():
+def index():
     return render_template('index.html')
 
 
